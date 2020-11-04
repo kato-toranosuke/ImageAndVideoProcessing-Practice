@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1604494821 "out/practice-1.dvi" "out/practice-1.pdf" "out/practice-1" 1604494822
-  "out/practice-1.dvi" 1604494821 47028 62247f801b21b80be3552058ba8f7087 "latex"
+["dvipdf"] 1604499798 "out/practice-1.dvi" "out/practice-1.pdf" "out/practice-1" 1604499799
+  "out/practice-1.dvi" 1604499798 47020 9691138fa81d2730bfec6f76f180647d "latex"
   (generated)
   "out/practice-1.pdf"
-["latex"] 1604494820 "/Users/toranosuke/GoogleDrive/LectureDocument/2020/AutumnSemester/画像・映像情報処理/practice/practice-1/report/practice-1.tex" "out/practice-1.dvi" "practice-1" 1604494822
+["latex"] 1604499796 "/Users/toranosuke/GoogleDrive/LectureDocument/2020/AutumnSemester/画像・映像情報処理/practice/practice-1/report/practice-1.tex" "out/practice-1.dvi" "practice-1" 1604499799
   "../src/avg_filter.c" 1604356204 1375 8f4d35c54fb6341532831b1a611e910a ""
   "../src/img/output_avg3x3.png" 1604457091 39243 3ffa8cb91512ebb0bc100dc99a56d8b7 ""
   "../src/img/output_avg5x5.png" 1604457294 32541 213faf290543fc5c7ebb3d42efae377b ""
@@ -16,7 +16,7 @@
   "../src/img/output_sobel10.png" 1604494221 53927 01bbb4d3a8d03c403b539bc5b8ea60c6 ""
   "../src/median_filter.c" 1604356186 2126 596586c55f3d5a45043fff5d7095194f ""
   "../src/sobel_filter.c" 1604494682 2024 c562b4271fc9e8d0cdc1370c4f889b3b ""
-  "/Users/toranosuke/GoogleDrive/LectureDocument/2020/AutumnSemester/画像・映像情報処理/practice/practice-1/report/practice-1.tex" 1604494817 5029 266b0a822020ecaf42710d9de502941b ""
+  "/Users/toranosuke/GoogleDrive/LectureDocument/2020/AutumnSemester/画像・映像情報処理/practice/practice-1/report/practice-1.tex" 1604499793 5023 826c84cee7c0f71974104b4e735ef4a9 ""
   "/Users/toranosuke/Library/texmf/tex/latex/jlisting.sty" 1604443947 6230 9fa8fe97d5afbd5a433990256cc4d5a3 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -100,9 +100,9 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "/usr/local/texlive/2020/texmf-var/web2c/euptex/uplatex.fmt" 1603644555 2569837 227a5e52bdf349c73e6488d83c402487 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "out/practice-1.aux" 1604494821 3234 8dcc47b8c3043a2475c69956708ec54f "latex"
-  "practice-1.tex" 1604494817 5029 266b0a822020ecaf42710d9de502941b ""
+  "out/practice-1.aux" 1604499798 3234 8dcc47b8c3043a2475c69956708ec54f "latex"
+  "practice-1.tex" 1604499793 5023 826c84cee7c0f71974104b4e735ef4a9 ""
   (generated)
-  "out/practice-1.log"
-  "out/practice-1.aux"
   "out/practice-1.dvi"
+  "out/practice-1.aux"
+  "out/practice-1.log"
