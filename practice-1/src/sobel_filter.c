@@ -5,6 +5,7 @@
 #define NPIXELS 256 // 画素数
 #define N 1         // 窓の大きさ
 
+// 畳み込み積分をする関数
 int integral(unsigned char pixels[][3], int kernel[][3])
 {
   int val = 0;
@@ -23,7 +24,7 @@ int main(void)
   unsigned char inputImg[NPIXELS][NPIXELS];
   char input_filename[] = "data/lena";
   unsigned char outputImg[NPIXELS][NPIXELS];
-  char output_filename[] = "data/output_sobel";
+  char output_filename[] = "data/output_sobel_02";
 
   // sobel filterのkernel
   int Gh[3][3] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}}; // 水平方向
@@ -59,7 +60,8 @@ int main(void)
       int fx = integral(pixels, Gh);
       int fy = integral(pixels, Gv);
       // フィルタの出力結果
-      int g = sqrt(fx * fx + fy * fy)*0.5;
+      const double coefficient = 0.20;
+      int g = sqrt(fx * fx + fy * fy) * coefficient;
       if (g > 255)
         g = 255;
       outputImg[i][j] = (unsigned char)g;
